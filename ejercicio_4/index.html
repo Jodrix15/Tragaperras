@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tragaperras</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="fila_primera">
+                <img id="img1" class="imagen" src="/imagenes/1.png" alt="">
+            </td>
+            <td class="fila_primera">
+                <img id="img2" class="imagen" src="/imagenes/1.png" alt="">
+            </td>
+            <td class="fila_primera"
+            >
+            <img id="img3" class="imagen" src="/imagenes/1.png" alt=""></td>
+        </tr>
+        <tr>
+            <td  class="fila_segunda">
+                <input id="suerte_1" class="suerte" type="button" value="Suerte" onclick="suerte(document.getElementById('suerte_1').getAttribute('id'))">
+            </td>
+            <td class="fila_segunda">
+                <input id="suerte_2" class="suerte" type="button" value="Suerte" onclick="suerte(document.getElementById('suerte_2').getAttribute('id'))">
+            </td>
+            <td class="fila_segunda">
+                <input id="suerte_3" class="suerte"type="button" value="Suerte" onclick="suerte(document.getElementById('suerte_3').getAttribute('id'))">
+            </td>
+        </tr>
+        <tr>
+            <td class="tercera_fila">
+                <button id="reintentar" onclick="restart()">Volver a intentar</button>
+                <div id="acumulado">0</div>
+            </td>
+            <td class="tercera_fila" colspan="2">
+                <button id="insertar" onclick="acumulado()">Insertar moneda</button>
+                <label for="monedas"></label><br>
+                <input id="cantidad_monedas" type="text" name="monedas" placeholder="0">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

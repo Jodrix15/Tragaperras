@@ -1,0 +1,65 @@
+html{
+    margin: 5px;
+}
+
+body{
+    margin: 0;
+    background: #ff0;
+}
+
+table{
+    table-layout: fixed;
+    width: 600px;
+    border: 5px ridge black;
+    border-spacing: 8px;
+}
+
+td{
+    border: 5px ridge black;
+    background-color: #f9b;    
+   
+}
+.imagen{
+    margin-top: 5px;
+    width:130px;
+
+}
+
+.fila_primera{
+    height: 170px;
+    text-align: center;
+}
+
+.fila_segunda{
+    height:100px;
+    text-align: center;
+}
+
+.tercera_fila{
+    height: 150px;
+
+}
+
+#reintentar{
+    margin: 20px 20px 0px 20px;
+}
+
+#insertar{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    
+}
+
+#cantidad_monedas{
+    margin-left: 20px;
+}
+
+#acumulado{
+    margin:5px;
+    margin-left: 20px;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+
+
